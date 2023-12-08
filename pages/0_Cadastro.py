@@ -6,6 +6,8 @@ import time
 st.set_page_config(page_title="Cadastro",page_icon="📄")
 st.title('Cadastro')
 
+st.divider()
+
 usu = st.text_input('Crie seu nome de usuário')
 pas = st.text_input('Crie sua senha')
 pas1 = st.text_input('Confirme sua senha')
