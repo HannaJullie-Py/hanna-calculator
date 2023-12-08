@@ -1,7 +1,6 @@
 import streamlit as st
 
 st.set_page_config(page_title="Créditos", page_icon="💯")
-st.markdown("# Créditos")
 st.title('Quem Fez?')
 
 st.write('Feito por Hanna Patrocinio Benevides da Silveira e Pedro Henrique Soares de Souza!')
