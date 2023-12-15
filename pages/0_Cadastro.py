@@ -13,10 +13,12 @@ pas = st.text_input('Crie sua senha')
 pas1 = st.text_input('Confirme sua senha')
 
 
-butao = st.button('Enter em cada uma das caixas para criar')
+butao = st.button('Enter')
 if pas1 != pas:
   st.caption(':red[Senha não confere]')
 
 if butao:
   st.caption(':green[Conta criada :D]')
+
+st.divider()
 
