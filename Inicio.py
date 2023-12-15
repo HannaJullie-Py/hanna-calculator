@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import time
-from streamlit_chat import message
+
 
 
 #Título
