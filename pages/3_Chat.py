@@ -1,5 +1,6 @@
 import streamlit as st
-from streamlit_chat import message
+import numpy as np
 
-message("My message") 
-message("Hello bot!", is_user=True)  # align's the message to the right
+with st.chat_message("user"):
+    st.write("Hello 👋")
+    st.line_chart(np.random.randn(30, 3))
