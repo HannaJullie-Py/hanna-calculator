@@ -15,7 +15,7 @@ popup = st.dialog(
 
 def dialog_botao_criar():
     st.write("### Resultado do Criar no PopUp:")
-    st.write(f"#### Eai {st.session_state.usuario})
+    st.write(f"#### Eai {usu})
     st.write(f"#### Conta Criada")
     popup.close()
 
