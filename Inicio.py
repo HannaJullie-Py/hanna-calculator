@@ -10,12 +10,12 @@ def dialog_botao_fechar():
     popup.close()
 
 popup = st.dialog(
-    "primeiro_popup", title="Crie sua conta1",
+    "primeiro_popup", title="Crie sua conta",
     on_botao_fechar_clicked=dialog_botao_fechar, pode_fechar=True)
 
 def dialog_botao_criar():
     st.write("### Resultado do Criar no PopUp:")
-    st.write(f"#### Eai {usu})
+    st.write(f"#### Eai {st.session_state.usuario}")
     st.write(f"#### Conta Criada")
     popup.close()
 
