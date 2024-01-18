@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import time
-st.set_page_config('ANAPH', page_icon='⚡')
+st.set_page_config('ANAH', page_icon='⚡')
 st.header('ANAPH', divider='rainbow')
 st.image('https://i.imgur.com/1P4Ggm3.png',width=700)
 st.write('Analisamos o seu consumo de energia elétrica!')
