@@ -7,20 +7,6 @@ st.header('ANAPH', divider='rainbow')
 st.image('https://i.imgur.com/1P4Ggm3.png',width=700)
 st.write('Analisamos o seu consumo de energia elétrica!')
 
-st.markdown(
-    """
-    <style>
-    .reportview-container {
-        background: url("https://static.mundoeducacao.uol.com.br/mundoeducacao/2023/06/barragem-de-uma-usina-hidreletrica.jpg")
-    }
-   .sidebar .sidebar-content {
-        background: url("https://static.mundoeducacao.uol.com.br/mundoeducacao/2023/06/barragem-de-uma-usina-hidreletrica.jpg")
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 #Explicação
 st.title('Como funciona?')
 st.write(' **Aqui no site da ANAPH é mais fácil calcular o seu consumo de energia, podendo filtrar na data desejada, quando e onde quiser! Crie sua conta no menu CADASTRO para ter acesso completo às funcionalidades do site. Agradecemos a sua visita.** ')
