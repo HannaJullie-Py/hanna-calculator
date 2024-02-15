@@ -9,4 +9,4 @@ st.write('Analisamos o seu consumo de energia elétrica!')
 
 #Explicação
 st.title('Como funciona?')
-st.write(' **Aqui no site da ANAPH é mais fácil calcular o seu consumo de energia, podendo filtrar na data desejada, quando e onde quiser! Crie sua conta no menu CADASTRO para ter acesso completo às funcionalidades do site. Agradecemos a sua visita.** ')
+st.write(' **Aqui no site da ANAPH é mais fácil calcular o seu consumo de energia, podendo filtrar na data desejada, quando e onde quiser!** ')
